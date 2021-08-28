@@ -1,1 +1,1 @@
-# reactJS-challenge
+# ReactJS-challenge
