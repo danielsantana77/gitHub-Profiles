@@ -11,7 +11,7 @@ const FollowersContainer = props => {
     return (
 
         <Section>
-            <Title>Seguidoress de {(props.login)?.split(' ')[0]}</Title>
+            <Title>Seguidores de {(props.login)?.split(' ')[0]}</Title>
             <ListOfFollowersContainer> 
                 {(props?.follow).map(followers => (
                     <Repo onClick={() => window.location.href=(followers?.html_url)}  key={followers?.id}>
