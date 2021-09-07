@@ -18,6 +18,7 @@ const FollowingContainer = props => {
             <ListOfReposContainer>
                 {(props?.seguindo).map(repo => (
                     <Repo onClick={() => window.location.href=(repo?.html_url)}  key={repo?.id}>
+                        <img src = {repo?.avatar_url}/>
                         <h2>{repo?.login}</h2>
                         
                        

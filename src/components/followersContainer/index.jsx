@@ -15,8 +15,9 @@ const FollowersContainer = props => {
             <ListOfFollowersContainer> 
                 {(props?.follow).map(followers => (
                     <Repo onClick={() => window.location.href=(followers?.html_url)}  key={followers?.id}>
+                    <img src ={followers?.avatar_url} />
                     <h2>{followers?.login}</h2>
-                         
+                    
                     </Repo>
 
 
