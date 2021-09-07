@@ -61,8 +61,6 @@ export const Repo = styled.h2`
        width :50px ;
        height: 50px;
        border-radius: inherit;
-       
-
              
    }
 `
